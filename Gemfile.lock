@@ -160,6 +160,7 @@ GEM
     jwt (2.2.2)
     kgio (2.11.3)
     libv8 (8.4.255.0)
+    libv8 (8.4.255.0-x86_64-darwin-18)
     listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -431,6 +432,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-18
 
 DEPENDENCIES
   actionmailer (= 6.0.3.3)
@@ -558,4 +560,4 @@ DEPENDENCIES
   yaml-lint
 
 BUNDLED WITH
-   2.1.4
+   2.2.0

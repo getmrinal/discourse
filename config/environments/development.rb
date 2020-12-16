@@ -62,7 +62,8 @@ Discourse::Application.configure do
     config.load_mini_profiler = true
   end
 
-  if hosts = ENV['DISCOURSE_DEV_HOSTS']
+  if hosts = ENV[' ']
+    print(hosts)
     config.hosts.concat(hosts.split(","))
   end
 
